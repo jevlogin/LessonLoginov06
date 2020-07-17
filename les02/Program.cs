@@ -3,6 +3,13 @@ using System;
 using System.IO;
 
 
+/**
+ * 
+ * Байтовый поток
+ * 
+ * */
+
+
 namespace les02
 {
     class Program
