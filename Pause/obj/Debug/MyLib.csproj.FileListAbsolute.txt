@@ -1,0 +1,6 @@
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\Pause\bin\Debug\Pause.dll
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\Pause\bin\Debug\Pause.pdb
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\Pause\obj\Debug\MyLib.csprojAssemblyReference.cache
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\Pause\obj\Debug\MyLib.csproj.CoreCompileInputs.cache
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\Pause\obj\Debug\Pause.dll
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\Pause\obj\Debug\Pause.pdb
