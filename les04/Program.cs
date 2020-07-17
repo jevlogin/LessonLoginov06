@@ -1,9 +1,5 @@
 ﻿using static MyLib.PauseClass;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace les04
@@ -20,7 +16,7 @@ namespace les04
                 long n = f.Length / 4;
 
                 int a;
-                for (a = 0; a < n; a++)
+                for (int i = 0; i < n; i++)
                 {
                     a = fIn.ReadInt32();
                     Console.WriteLine(a + " ");
