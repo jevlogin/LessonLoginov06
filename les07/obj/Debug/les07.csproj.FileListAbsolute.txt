@@ -1,0 +1,10 @@
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\bin\Debug\les07.exe.config
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\bin\Debug\les07.exe
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\bin\Debug\les07.pdb
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\bin\Debug\Pause.dll
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\bin\Debug\Pause.pdb
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\obj\Debug\les07.csprojAssemblyReference.cache
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\obj\Debug\les07.csproj.CoreCompileInputs.cache
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\obj\Debug\les07.csproj.CopyComplete
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\obj\Debug\les07.exe
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les07\obj\Debug\les07.pdb
