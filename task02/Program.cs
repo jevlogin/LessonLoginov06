@@ -78,6 +78,27 @@ namespace task02
             }
         }
 
+        public static void LoadOut(string fileName, out double min)
+        {
+            FileStream fs = new FileStream(fileName, FileMode.Open, FileAccess.Read);
+            BinaryReader br = new BinaryReader(fs);
+
+            min = double.MaxValue;
+            double d;
+
+            for (int i = 0; i < fs.Length / sizeof(double); i++)
+            {
+                d = br.ReadDouble();
+                if (d < min)
+                {
+                    min = d;
+                }
+            }
+            br.Close();
+            fs.Close();
+        }
+
+
         public static double Load(string fileName)
         {
             try
@@ -128,16 +149,19 @@ namespace task02
                 }
             }
             Console.WriteLine("Привет! Это тупая программа. Выбери число от 1 до 3, в соответствии будет вызвана функция F1, F2 или F3");
-            Console.WriteLine($"F1 = (x * x) - (50 * x) + 10;");
-            Console.WriteLine($"F2 = (x * x);");
-            Console.WriteLine($"F3 = (x * x * x);");
+            Console.WriteLine($"1) F1 = (x * x) - (50 * x) + 10;");
+            Console.WriteLine($"2) F2 = (x * x);");
+            Console.WriteLine($"3) F3 = (x * x * x);");
 
             numFun = byte.Parse(Console.ReadLine());
 
             SaveFunc(fileName, funs[numFun - 1], -100, 100, 0.5);
 
+            double min;
+            //Console.WriteLine(Load(fileName));
 
-            System.Console.WriteLine(Load(fileName));
+            LoadOut(fileName, out min);
+            Console.WriteLine(min);
 
             Pause();
         }
