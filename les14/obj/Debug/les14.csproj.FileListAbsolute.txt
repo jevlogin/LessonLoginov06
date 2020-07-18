@@ -1,0 +1,9 @@
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\bin\Debug\les14.exe.config
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\bin\Debug\les14.exe
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\bin\Debug\les14.pdb
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\bin\Debug\Pause.dll
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\bin\Debug\Pause.pdb
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\obj\Debug\les14.csproj.CoreCompileInputs.cache
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\obj\Debug\les14.csproj.CopyComplete
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\obj\Debug\les14.exe
+F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\les14\obj\Debug\les14.pdb
