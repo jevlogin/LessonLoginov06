@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static MyLib.PauseClass;
 
-namespace les08
+namespace task03
 {
+
     class Program
     {
         static int MyDelegate(Student st1, Student st2)
@@ -33,7 +31,7 @@ namespace les08
                     {
                         bakalavr++;
                     }
-                    else
+                    else if (int.Parse(s[6]) >= 5)
                     {
                         magistr++;
                     }
@@ -56,12 +54,13 @@ namespace les08
             Console.WriteLine($"Бакалавров: {bakalavr}");
             Console.WriteLine();
 
-            Console.WriteLine("Список Магистров: ");
+            Console.WriteLine($"Итого Магистров {magistr}: ");
+            int numberOfStudent = 0;
             foreach (var e in list)
             {
                 if (e.course >= 5)
                 {
-                    Console.WriteLine(e.firstName);
+                    Console.WriteLine($"{++numberOfStudent} {e.firstName} {e.lastName}");
                 }
             }
 

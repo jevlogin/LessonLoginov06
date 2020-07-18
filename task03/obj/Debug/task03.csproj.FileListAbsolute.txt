@@ -1,0 +1,10 @@
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\obj\Debug\task03.csprojAssemblyReference.cache
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\obj\Debug\task03.csproj.CoreCompileInputs.cache
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\bin\Debug\task03.exe.config
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\bin\Debug\task03.exe
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\bin\Debug\task03.pdb
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\bin\Debug\Pause.dll
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\bin\Debug\Pause.pdb
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\obj\Debug\task03.csproj.CopyComplete
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\obj\Debug\task03.exe
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task03\obj\Debug\task03.pdb

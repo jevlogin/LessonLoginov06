@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CC8ED979-BE00-4B1C-A519-E6D1FAF8C52C}</ProjectGuid>
+    <ProjectGuid>{EA4F31E2-7F7E-4D4F-BE93-922CECF35C84}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>les08</RootNamespace>
-    <AssemblyName>les08</AssemblyName>
+    <RootNamespace>task03</RootNamespace>
+    <AssemblyName>task03</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
