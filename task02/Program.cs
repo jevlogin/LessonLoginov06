@@ -12,7 +12,9 @@ using static MyLib.PauseClass;
  * Логинов Е.
  * 
  * 2. Модифицировать программу нахождения минимума функции так, чтобы можно было передавать функцию в виде делегата. 
- * а) Сделать меню с различными функциями и представить пользователю выбор, для какой функции и на каком отрезке находить минимум. 
+ * а) Сделать меню с различными функциями и представить пользователю выбор, 
+ * для какой функции 
+ * и на каком отрезке находить минимум. 
  * Использовать массив (или список) делегатов, в котором хранятся различные функции.
  * б) *Переделать функцию Load, чтобы она возвращала массив считанных значений. 
  * Пусть она возвращает минимум через параметр (с использованием модификатора out). 
@@ -27,10 +29,19 @@ namespace task02
 
     class Program
     {
-        public static double F(double x)
+        public static double F1(double x)
         {
             return (x * x) - (50 * x) + 10;
         }
+        public static double F2(double x)
+        {
+            return x * x;
+        }
+        public static double F3(double x)
+        {
+            return x * x * x;
+        }
+
         public static void Save(string fileName, double a, double b, double h)
         {
             FileStream fs = new FileStream(fileName, FileMode.Create, FileAccess.Write);
@@ -39,7 +50,7 @@ namespace task02
             double x = a;
             while (x <= b)
             {
-                bw.Write(F(x));
+                bw.Write(F1(x));
                 x += h;
             }
             bw.Close();
@@ -98,11 +109,32 @@ namespace task02
         static void Main(string[] args)
         {
             const string fileName = @"data.bin";
+            byte numFun = 0;
 
-            SaveFunc(fileName, F, -100, 100, 0.5);
-            //Save(fileName, -100, 100, 0.5);
+            Fun[] funs = new Fun[3];
+            for (int i = 0; i < funs.Length; i++)
+            {
+                if (i == 0)
+                {
+                    funs[i] = F1;
+                }
+                else if (i == 1)
+                {
+                    funs[i] = F2;
+                }
+                else if (i == 2)
+                {
+                    funs[i] = F3;
+                }
+            }
+            Console.WriteLine("Привет! Это тупая программа. Выбери число от 1 до 3, в соответствии будет вызвана функция F1, F2 или F3");
+            Console.WriteLine($"F1 = (x * x) - (50 * x) + 10;");
+            Console.WriteLine($"F2 = (x * x);");
+            Console.WriteLine($"F3 = (x * x * x);");
 
+            numFun = byte.Parse(Console.ReadLine());
 
+            SaveFunc(fileName, funs[numFun - 1], -100, 100, 0.5);
 
 
             System.Console.WriteLine(Load(fileName));
