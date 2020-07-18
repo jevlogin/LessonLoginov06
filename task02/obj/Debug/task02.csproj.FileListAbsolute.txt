@@ -7,3 +7,13 @@ F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\task02\obj\Debug\task02.c
 F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\task02\obj\Debug\task02.csproj.CopyComplete
 F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\task02\obj\Debug\task02.exe
 F:\GeekBrains\Lesson\Basic language C#\LessonLoginov06\task02\obj\Debug\task02.pdb
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\bin\Debug\task02.exe.config
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\bin\Debug\task02.exe
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\bin\Debug\task02.pdb
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\bin\Debug\Pause.dll
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\bin\Debug\Pause.pdb
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\obj\Debug\task02.csprojAssemblyReference.cache
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\obj\Debug\task02.csproj.CoreCompileInputs.cache
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\obj\Debug\task02.csproj.CopyComplete
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\obj\Debug\task02.exe
+E:\Geekbrains\Lesson\Основы языка C#\LessonLoginov06\task02\obj\Debug\task02.pdb

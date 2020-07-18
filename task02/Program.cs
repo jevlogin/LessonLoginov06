@@ -23,12 +23,7 @@ using static MyLib.PauseClass;
 namespace task02
 {
     public delegate double Fun(double x);
-    public delegate double Fun2(string fileName, double a, double b, double h);
 
-    public delegate void ObsDelegate();
-
-    public delegate void SaveDelegate(string fileName, double a, double b, double h);
-    public delegate void LoadDelegate(string fileName);
 
     class Program
     {
@@ -104,7 +99,7 @@ namespace task02
         {
             const string fileName = @"data.bin";
 
-            //  SaveFunc(fileName, F, -100, 100, 0.5);
+            SaveFunc(fileName, F, -100, 100, 0.5);
             //Save(fileName, -100, 100, 0.5);
 
 
